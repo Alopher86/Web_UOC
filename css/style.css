@@ -94,11 +94,6 @@ nav a:hover {
     z-index: 1;
 }
 
-#newsletter input {
-    color: grey;
-    padding: 0;
-}
-
 #newsletter h2 {
     padding-top: 1em;
     margin-bottom: 0.4em;
@@ -106,12 +101,13 @@ nav a:hover {
 
 #newsletter form {
     margin: 0 auto;
-    max-width: 31em;
+    max-width: 90vw;/*31em;*/
 }
 
 #newsletter label {
     font-size: 1.1rem;
     line-height: 1.5rem;
+    display: block;
 }
 
 #newsletter form {
@@ -119,8 +115,10 @@ nav a:hover {
     }
 
 #newsletter input {
+    color: grey;
+    padding: 0;
     border-color: lightgray;
-    width: 17em;/*280px;*/
+    width: 15em;/*280px;*/
     height: 3em;/*45px;*/
     padding-left: 1em;
     margin-top: 1em;
@@ -306,8 +304,12 @@ main section {
 }
 
 #intro_section input {
-    width: 25em;/*400px;*/
+    width: 25em;
     height: 3.5em;/*55px;*/
+}
+
+#intro_section > div {
+    width: 95vw;
 }
 
 main {
@@ -429,7 +431,6 @@ section#shop_section {
 #shop_section a {
     color: #DC4A23;
     font-weight: 600;
-    
 }
 
 #shop_section a:hover {
@@ -534,7 +535,6 @@ section#pick_of_the_week {
     }
 
     #container_index_main {
-     
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
@@ -545,6 +545,7 @@ section#pick_of_the_week {
     }
 
     #intro_section h1 {
+        margin: 0 auto;
         width: 10em;
     }
 
@@ -566,6 +567,10 @@ section#pick_of_the_week {
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+    }
+
+    #newsletter form {
+        width: 500px;
     }
 
     #black_footer {
@@ -657,7 +662,7 @@ section#pick_of_the_week {
 }
 
 #container_MAIN_recipes_shop {
-    max-width: 95vw;
+    /*max-width: 95vw;*/
     margin: 0 auto;
     grid-area: main_recipes_shop;
 }
