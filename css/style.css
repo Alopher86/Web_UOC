@@ -490,8 +490,7 @@ section#pick_of_the_week {
     }*/
 
 @media screen and (min-width: 1024px/*930px*/) {
-    #container_index_main,
-    #container_MAIN_recipes_shop {
+    #container_index_main{
         max-width: 900px;
         margin: 0 auto;
     }
