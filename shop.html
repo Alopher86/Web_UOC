@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cookination - Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- las tres siguientes líneas son un truco para obtener elementos semánticos de HTML5 que funcionan en versiones de Internet Explorer antiguas -->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="container_BODY_recipes_shop">
+    <header>
+      <nav>
+        <a href="index.html"><img id="logo" src="img/logos/logo.png" alt="Cookination logo" title="Cookination"></a>
+        <ul>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li class="current">Shop</li>
+          <li><a href="videos.html">Videos</a></li>
+        </ul>
+       </nav>
+      </header>
+
+      <main id="container_MAIN_recipes_shop">
+       <section id="pictures_section">
+
+        <h2>Shop</h2>
+        <p>Listed below are products that are useful in re-creating the recipes on this website. 
+          We may receive a small commission when you click our links and make a purchase. 
+          This helps to keep Cookination running so we can provide you with high quality content. 
+          Thank you!</p>
+
+        <div id="RECIPES_SHOP">
+
+          <aside>
+            <span>Categories</span>
+            <ul>
+              <li>
+               <input type="checkbox" id="kitchen_tools" name="1_kitchen_tools" value="1_kitchen_tools">
+               <label for="kitchen_tools">Kitchen tools</label></li>
+
+              <li>
+                <input type="checkbox" id="cookware" name="2_cookware" value="2_cookware">
+                <label for="cookware">Cookware</label>
+                </li>
+
+              <li>
+                <input type="checkbox" id="cookbooks" name="3_cookbooks" value="3_cookbooks">
+                <label for="cookbooks">Cookbooks</label>
+                
+              </li>
+              <li>
+                <input type="checkbox" id="kitchen_electrics" name="4_kitchen_electrics" value="4_kitchen_electrics">
+                <label for="kitchen_electrics">Kitchen electrics</label>
+                
+              </li>
+              <li>
+                <input type="checkbox" id="storage" name="5_storage" value="5_storage">
+                <label for="storage">Storage</label>
+                
+              </li>
+              <li>
+                <input type="checkbox" id="wellness_books" name="6_wellness_books" value="6_wellness_books">
+                <label for="wellness_books">Wellness books</label>
+
+              </li>
+            </ul>
+
+            <form id="recipes_shop_search">
+              <span>Search</span>
+              <input type="search" name="q" placeholder="Enter keyword">
+            </form>
+          </aside>
+
+        <div class="two_and_three_columns">
+          <a href="#">
+          <figure>
+            <img src="img/shop/airfryer.jpg" alt="Ninja max air fryer" title="Ninja max air fryer">
+            <figcaption>Ninja max air fryer</figcaption>
+          </figure>
+        </a>
+          
+        <a href="#">
+          <figure>
+            <img src="img/shop/crockpot.jpg" alt="Crock-pot slow cooker" title="Crock-pot slow cooker">
+            <figcaption>Crock-pot slow cooker</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/wineopener.jpg" alt="Wine bottle opener" title="Wine bottle opener">
+            <figcaption>Wine bottle opener</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/skewers.jpg" alt="Stainless steel skewers" title="Stainless steel skewers">
+            <figcaption>Stainless steel skewers</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/foodscrapers.jpg" alt="Food scrapers" title="Food scrapers">
+            <figcaption>Food scrapers</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/pans.jpg" alt="Nonstick pan set" title="Nonstick pan set">
+            <figcaption>Nonstick pan set</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/jar.jpg" alt="Mason Jar" title="Mason Jar">
+            <figcaption>Mason Jar</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/bowl.jpg" alt="Glass batter bowl" title="Glass batter bowl">
+            <figcaption>Glass batter bowl</figcaption>
+          </figure>
+        </a>
+
+        <a href="#">
+          <figure>
+            <img src="img/shop/knifeandfork.jpg" alt="Carving knife & fork set" title="Carving knife & fork set">
+            <figcaption>Carving knife & fork set</figcaption>
+          </figure>
+        </a>
+        </div>
+       
+       <div id="pages">
+       <ul>
+        <li>1</li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">6</a></li>
+        <li><a href="">7</a></li>
+        <li><a href="">>></a></li>
+      </ul>
+    </div>
+  </div>
+  </section>
+      </main>
+
+      <section id="newsletter">
+        <h2>Newsletter</h2>
+        <form>
+          <label for="user_email">Receive a weekly email with new recipes and recommendations for your cooking</label>
+            <input type="email" id="user_email" name="newsletter_user_mail" placeholder="Your email address">
+            <button type="submit">Suscribe</button>
+          </form>
+      </section>
+    
+      <footer>
+        <div id="black_footer">
+          <p>Simple recipes that make you feel good</p>
+          <div id="social_media">
+          <p>Follow us on</p>
+          <ul>
+            <li><a href=""><img src="img/icons/twitter.svg" alt="Twitter icon"></a></li>
+            <li><a href=""><img src="img/icons/instagram.svg" alt="Instagram icon"></a></li>
+            <li><a href=""><img src="img/icons/youtube.svg" alt="YouTube icon"></a></li>
+            <li><a href=""><img src="img/icons/facebook.svg" alt="Facebook icon"></a></li>
+          </ul>
+        </div>
+  
+        <hr>
+        
+        <p><time datetime="2022">2022</time> © Andrea López Hernández</p>
+        <ul id="terms_list">
+          <li><a href="">Terms and conditions</a></li>
+          <li><a href="">Privacy policy</a></li>
+          <li><a href="">Cookies</a></li>
+        </ul>
+      </div>
+      </footer>
+  </body>
+</html>
