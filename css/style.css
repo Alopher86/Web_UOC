@@ -229,8 +229,11 @@ footer hr + p,
     object-fit: cover;
 }
 
-#container_index_main {
+main {
     max-width: 95vw;
+}
+
+#container_index_main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
