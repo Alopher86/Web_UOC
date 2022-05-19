@@ -216,8 +216,9 @@ footer hr + p,
 /*Index.html*/
 
 #container_index {
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr auto 4fr 3.2fr;
     grid-template-areas: 
     "header"
@@ -225,17 +226,20 @@ footer hr + p,
     "main"
     "newsletter"
     "footer";
+    object-fit: cover;
 }
 
 #container_index_main {
+    max-width: 95vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 95vw;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
     "pictures"
     "shop"
     "pick";
+    object-fit: cover;
 }
 
 #pictures_section h2:first-child {
@@ -258,7 +262,7 @@ main section {
 
 #intro_section h1 {
     font-size: 3rem;
-    width: 500px;
+    /*width: 8em;/*500px;*/
 }
 
 #intro_section input,
@@ -299,8 +303,8 @@ main section {
 }
 
 #intro_section input {
-    width: 400px;
-    height: 55px;
+    width: 25em;/*400px;*/
+    height: 3.5em;/*55px;*/
 }
 
 main {
@@ -535,6 +539,10 @@ section#pick_of_the_week {
    
     #intro_section input {
         width: 350px;
+    }
+
+    #intro_section h1 {
+        width: 10em;
     }
 
     .two_columns {
