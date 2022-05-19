@@ -106,7 +106,7 @@ nav a:hover {
 
 #newsletter form {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 31em;
 }
 
 #newsletter label {
@@ -120,8 +120,8 @@ nav a:hover {
 
 #newsletter input {
     border-color: lightgray;
-    width: 280px;
-    height: 45px;
+    width: 17em;/*280px;*/
+    height: 3em;/*45px;*/
     padding-left: 1em;
     margin-top: 1em;
     margin-right: 0.8em;
@@ -187,6 +187,10 @@ footer p:first-child {
     margin-bottom: 0;
 }
 
+footer hr {
+    opacity: 0.6;
+}
+
 footer hr + p {
     font-weight: 400;
 }
@@ -211,10 +215,6 @@ footer hr + p,
 
 /*Index.html*/
 
-main {
-    max-width: 95vw;
-}
-
 #container_index {
     display: grid;
     grid-template-columns: auto;
@@ -230,7 +230,7 @@ main {
 #container_index_main {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 95vw;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
     "pictures"
@@ -646,6 +646,7 @@ section#pick_of_the_week {
 }
 
 #container_MAIN_recipes_shop {
+    max-width: 95vw;
     margin: 0 auto;
     grid-area: main_recipes_shop;
 }
@@ -700,6 +701,11 @@ aside {
 }
 
 @media screen and (min-width: 930px) {
+
+    #container_MAIN_recipes_shop {
+        max-width: 900px;
+    }
+
     #RECIPES_SHOP {
         display: grid;
         grid-template-columns: 0.25fr 0.75fr;
@@ -710,47 +716,47 @@ aside {
         grid-gap: 1.2em;
 }
 
-#container_MAIN_recipes_shop h2,
-#container_MAIN_recipes_shop h2 + p {
-    text-align: left;
-}
-
-#container_MAIN_recipes_shop h2 {
-    padding-top: 0;
-}
-
-#container_BODY_recipes_shop {
-    grid-template-rows: 0.2fr auto 1fr 0.65fr;
-}
-
-.two_and_three_columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    #container_MAIN_recipes_shop h2,
+    #container_MAIN_recipes_shop h2 + p {
+        text-align: left;
     }
 
-#RECIPES_SHOP aside {
-    opacity: unset;
-    padding: 1.2em 1em;
+    #container_MAIN_recipes_shop h2 {
+        padding-top: 0;
     }
 
-aside span {
-    margin: 1em 0;
-}
-
-aside li {
-    padding: 0.2em 0;
-}
-aside ul {
-    margin: 0.5em 0 1.3em;
-}
-#recipes_shop_search input {
-    padding: 0.8em 0 0.8em 3.5em;
-    width: 100%;
-    margin: 0.5em 0;
-}
-#recipes_shop_search span {
-    margin-bottom: 1em;
+    #container_BODY_recipes_shop {
+        grid-template-rows: 0.2fr auto 1fr 0.65fr;
     }
+
+    .two_and_three_columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+
+    #RECIPES_SHOP aside {
+        opacity: unset;
+        padding: 1.2em 1em;
+        }
+
+    aside span {
+        margin: 1em 0;
+    }
+
+    aside li {
+        padding: 0.2em 0;
+    }
+    aside ul {
+        margin: 0.5em 0 1.3em;
+    }
+    #recipes_shop_search input {
+        padding: 0.8em 0 0.8em 3.5em;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    #recipes_shop_search span {
+        margin-bottom: 1em;
+        }
 }
 
 #VIDEOS {
