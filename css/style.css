@@ -485,7 +485,7 @@ section#pick_of_the_week {
         justify-content: center;
     }*/
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 1024px/*930px*/) {
     main {
         max-width: 900px;
         margin: 0 auto;
@@ -700,8 +700,7 @@ aside {
     background-color: #FFFFFF;
 }
 
-@media screen and (min-width: 930px) {
-
+@media screen and (min-width: 1024px/*930px*/) {
     #container_MAIN_recipes_shop {
         max-width: 900px;
     }
@@ -786,7 +785,7 @@ iframe {
     margin-bottom: 4em;
 }
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 1024px/*930px*/) {
     #videos_columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
