@@ -231,7 +231,7 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto/*2.4fr 2.4fr 2fr*/;/*1fr 0.8fr 0.9fr;*/
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "pictures"
     "shop"
@@ -528,6 +528,7 @@ section#pick_of_the_week {
     }
 
     #container_index_main {
+        max-width: 90vw;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
