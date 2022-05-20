@@ -100,8 +100,8 @@ nav a:hover {
 }
 
 #newsletter form {
-    margin: 0 auto;
-    max-width: 90vw;/*31em;*/
+    margin: 1em auto 0;
+    max-width: 85vw;/*31em;*/
 }
 
 #newsletter label {
@@ -110,19 +110,15 @@ nav a:hover {
     display: block;
 }
 
-#newsletter form {
-    margin-top: 1em;
-    }
-
 #newsletter input {
     color: grey;
     padding: 0;
     border-color: lightgray;
-    width: 15em;/*280px;*/
-    height: 3em;/*45px;*/
+    width: 13em;/*280px;*/
+    height: 2.8em;/*45px;*/
     padding-left: 1em;
     margin-top: 1em;
-    margin-right: 0.8em;
+    margin-right: 0.6em;
 }
 
 #newsletter button {
@@ -131,7 +127,7 @@ nav a:hover {
     border-radius: 5px;
     color: #FFFFFF;
     width: 110px;
-    height: 45px;
+    height: 2.8em;/*45px;*/
     cursor: pointer;
 }
 
@@ -217,7 +213,7 @@ footer hr + p,
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 5fr auto 4fr 3.2fr;
+    grid-template-rows: 1fr 5fr auto 4fr 3fr;
     grid-template-areas: 
     "header"
     "introsection"
@@ -304,12 +300,12 @@ main section {
 }
 
 #intro_section input {
-    width: 25em;
+    /*width: 25em;*/
     height: 3.5em;/*55px;*/
 }
 
 #intro_section > div {
-    width: 95vw;
+    width: 92vw;
 }
 
 main {
@@ -487,12 +483,18 @@ section#pick_of_the_week {
 
 /* Media queries index.html */
 
-/*@media screen and (min-width: 576px) {
-    .two_columns {
+/*tablet*/
+@media screen and (min-width: 768px) {
+    #newsletter input {
+        width: 17em;
+    }
+    #newsletter label {
         margin: 0 auto;
-        justify-content: center;
-    }*/
+        width: 500px;
+    }
+}
 
+/*Desktop*/
 @media screen and (min-width: 1024px/*930px*/) {
     #container_index_main{
         max-width: 900px;
@@ -541,7 +543,7 @@ section#pick_of_the_week {
     }
    
     #intro_section input {
-        width: 350px;
+        width: 20em/*350px*/;
     }
 
     #intro_section h1 {
@@ -567,10 +569,6 @@ section#pick_of_the_week {
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-    }
-
-    #newsletter form {
-        width: 500px;
     }
 
     #black_footer {
@@ -653,7 +651,7 @@ section#pick_of_the_week {
 #container_BODY_recipes_shop {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr auto 1fr 0.8fr;
+    grid-template-rows: 0.2fr auto 1fr 0.75fr;
     grid-template-areas:
     "header"
     "main_recipes_shop"
@@ -729,7 +727,7 @@ aside {
         "aside pictures"
         "aside pages";
         grid-gap: 1.2em;
-}
+    }
 
     #container_MAIN_recipes_shop h2,
     #container_MAIN_recipes_shop h2 + p {
@@ -806,5 +804,5 @@ iframe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1.2em; 
+        }
     }
-}
