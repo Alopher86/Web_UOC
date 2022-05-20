@@ -156,7 +156,8 @@ footer {
     background-color: #2A2A2A;
 }
 
-#social_media {
+#social_media,
+#recipes_shop_search input {
     font-size: 0.9rem;
 }
 
