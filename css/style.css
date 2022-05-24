@@ -133,8 +133,7 @@ nav a:hover {
 }
 
 #newsletter button:hover {
-    background-color: #EB9781;
-    color:#FFFFFF;
+    background-color: #EB9781;  
 }
  
 #newsletter button:active {
@@ -161,6 +160,10 @@ footer {
     font-weight: 400;
     margin-bottom: 1em;
     padding-top: 1em;
+}
+
+#social_media ul {
+    margin-bottom: 1em;
 }
 
 #social_media li {
@@ -190,10 +193,6 @@ footer hr + p,
 #terms_list {
     font-size: 0.7rem;
     padding-top: 1em;
-}
-
-#social_media ul {
-    padding-bottom: 1em;
 }
 
 #terms_list li {
@@ -671,7 +670,7 @@ section#pick_of_the_week {
 
 #container_MAIN_recipes_shop h2 {
     font-size: 2.6rem;
-    padding: 10px 0;
+    padding-top: 1.3em;
 }
 
 #pictures_section h2 + p {
@@ -713,7 +712,7 @@ aside {
     #RECIPES_SHOP {
         display: grid;
         grid-template-columns: 0.25fr 0.75fr;
-        grid-template-rows: 0.95fr 0.05fr;
+        grid-template-rows: 0.98fr 0.02fr;
         grid-template-areas: 
         "aside pictures"
         "aside pages";
