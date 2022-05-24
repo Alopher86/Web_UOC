@@ -216,7 +216,6 @@ footer hr + p,
     "main"
     "newsletter"
     "footer";
-    object-fit: cover;
 }
 
 main {
@@ -670,7 +669,7 @@ section#pick_of_the_week {
 
 #container_MAIN_recipes_shop h2 {
     font-size: 2.6rem;
-    padding-top: 1.3em;
+    padding-top: 1em;
 }
 
 #pictures_section h2 + p {
