@@ -480,12 +480,19 @@ section#pick_of_the_week {
         margin: 0 auto;
         width: 560px;
     }
-
+/*añadido*/
     #container_index {
         /*display: grid;*/
         /*grid-template-columns: 1fr;*/
         grid-template-rows: 0.1fr 1.5fr auto 1fr 0.55fr;
     }
+
+    #container_index_main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
 }
 
 /*Desktop*/
