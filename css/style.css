@@ -389,7 +389,7 @@ figcaption /*,
 
 section#shop_section {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     grid-area: shop;
     background-image: url("../img/shop-bg.jpg");
@@ -400,8 +400,8 @@ section#shop_section {
 
 #shop_section div {
     background-color: #FFFFFF;
-    width: 60%;
-    height:50%;
+    max-width: 60%;
+    max-height: 50%;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     /*margin: 2rem 1.3rem 0 1.3rem;*/
     padding: 3.1em 3.75em 3em/*50px 60px*/;
