@@ -395,6 +395,7 @@ section#shop_section {
     background-image: url("../img/shop-bg.jpg");
     background-size: cover;
     text-align: center;
+    flex-direction: row;
 }
 
 #shop_section div {
