@@ -425,9 +425,9 @@ section#shop_section {
     color:#EB9781;
 }
 
-/*#shop_section p:last-child {
+#shop_section p:last-child {
     margin-bottom: 2em;
-}*/
+}
 
 section#pick_of_the_week {
     grid-area: pick;
