@@ -255,6 +255,7 @@ main section {
 
 #intro_section h1 {
     font-size: 3rem;
+    padding-top: 1em;
 }
 
 #intro_section input,
@@ -654,7 +655,7 @@ section#pick_of_the_week {
 #container_BODY_recipes_shop {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr auto 1fr 0.75fr;
+    grid-template-rows: 0.2fr auto 1fr 0.80fr/*0.75fr*/;
     grid-template-areas:
     "header"
     "main_recipes_shop"
