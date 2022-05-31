@@ -474,26 +474,7 @@ section#pick_of_the_week {
 
 /* Media queries index.html */
 
-/*tablet*/
-@media screen and (min-width: 768px) {
-    #newsletter label {
-        margin: 0 auto;
-        width: 560px;
-    }
-/*añadido*/
-    #container_index {
-        /*display: grid;*/
-        /*grid-template-columns: 1fr;*/
-        grid-template-rows: 0.1fr 2fr auto 1fr 0.55fr;
-    }
 
-    .two_columns{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1.2em;
-        justify-content: center;
-    }
-}
 
 /*Desktop*/
 @media screen and (min-width: 1024px) {
@@ -714,7 +695,7 @@ aside {
     background-color: #FFFFFF;
 }
 
-@media screen and (min-width: 768px/*1024px*/) {
+@media screen and (min-width: 1024px) {
     #container_MAIN_recipes_shop {
         max-width: 900px;
     }
