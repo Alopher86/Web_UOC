@@ -103,7 +103,7 @@ nav a:hover {
 
 #newsletter label {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.5em;
     display: block;
 }
 
@@ -129,7 +129,7 @@ nav a:hover {
 
 #newsletter form, 
 #newsletter button {
-    margin-bottom: 1.6em;/*40px;*/
+    margin-bottom: 1.6em;
 }
 
 #newsletter button:hover {
@@ -268,17 +268,9 @@ main section {
 }
 
 #intro_section form {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     margin: 2em auto;
 }
 
-/*#intro_section input
-#intro_section img  {
-    display: block;
-    margin: auto;
-}*/
 
 #intro_section input,
 #pick_of_the_week h2,
@@ -324,7 +316,7 @@ h2 {
 .deco_line {
     display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding-bottom: 1em /*40px*/;
 }
 
 h2.deco_line:before, 
@@ -356,8 +348,7 @@ aside span,
     margin-bottom: 0.4em;
 }
 
-figcaption /*,
-.video_h3*/ {
+figcaption {
     font-size: 1.1rem;
     margin-bottom: 1em;
 }
@@ -383,7 +374,6 @@ figcaption /*,
 
 .two_columns img,
 .two_and_three_columns img {
-    /*object-fit: cover;*/
     width: 100%;
     max-height: 100%;
 }
@@ -443,23 +433,21 @@ section#pick_of_the_week {
 }
 
 #pick_of_the_week img {
-    /*object-fit: cover;*/
     width: 100%;
     max-height: 100%;
 }
 
 #pick_of_the_week h3 {
     font-size: 2.3rem;
-    /*margin: 0;*/
 }
 
 #pick_of_the_week p {
     line-height: 1.5rem;
-    margin-top: 10px;
+    margin-top: 0.7em/*10px*/;
 }
 
 #pick_of_the_week p + p {
-    margin: 30px 0;
+    margin: 1.7em/*30px*/ 0;
 }
 
 #pick_of_the_week a {
