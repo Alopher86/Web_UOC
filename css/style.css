@@ -561,6 +561,12 @@ section#pick_of_the_week {
         /*margin: 0 auto;*/
     }
 
+
+    #newsletter label {
+        margin: 0 auto;
+        width: 560px;
+    }
+
     #black_footer {
         max-width: 900px;
         margin: auto;
