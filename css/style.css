@@ -98,11 +98,11 @@ nav a:hover {
 
 #newsletter form {
     margin: 0 auto;
-    /*max-width: 85vw;*/
+    max-width: 85vw;
 }
 
 #newsletter label {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     display: block;
 }
@@ -110,7 +110,7 @@ nav a:hover {
 #newsletter input {
     color: grey;
     border-color: lightgray;
-    width: 50vw/*13em*/;
+    width: 13em;
     height: 2.8em;
     padding-left: 1em;
     margin-top: 1em;
@@ -481,6 +481,9 @@ section#pick_of_the_week {
         margin: 0 auto;
         width: 35em/*560px*/;
     }
+    #newsletter input {
+        width: 15em;
+    }
 }
 
 /*Desktop*/
@@ -561,10 +564,12 @@ section#pick_of_the_week {
         /*margin: 0 auto;*/
     }
 
-
     #newsletter label {
-        margin: 0 auto;
-        width: 560px;
+        width: 530px;
+    }
+
+    #newsletter input {
+        width: 260px;
     }
 
     #black_footer {
