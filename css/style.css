@@ -478,7 +478,7 @@ section#pick_of_the_week {
 @media screen and (min-width: 768px) {
     #newsletter label {
         margin: 0 auto;
-       
+        width: 35em/*560px*/;
     }
 }
 
