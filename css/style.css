@@ -555,9 +555,9 @@ section#pick_of_the_week {
         max-width: 50%;
     }
 
-    #shop_section p:last-child {
+    /*#shop_section p:last-child {
     margin-bottom: 2em;
-    }
+    }*/
 
     #pick_of_the_week > div {
         display: grid;
