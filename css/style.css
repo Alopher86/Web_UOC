@@ -480,10 +480,16 @@ section#pick_of_the_week {
         margin: 0 auto;
         width: 560px;
     }
+
+    #container_index {
+        /*display: grid;*/
+        /*grid-template-columns: 1fr;*/
+        grid-template-rows: 0.1fr 1.5fr auto 1fr 0.55fr;
+    }
 }
 
 /*Desktop*/
-@media screen and (min-width: 768px/*1024px*/) {
+@media screen and (min-width: 1024px) {
     #container_index_main{
         max-width: 900px;
         margin: 0 auto;
