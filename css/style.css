@@ -388,9 +388,9 @@ figcaption /*,
 }
 
 section#shop_section {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
     grid-area: shop;
     background-image: url("../img/shop-bg.jpg");
     background-size: cover;
@@ -398,7 +398,6 @@ section#shop_section {
 }
 
 #shop_section div {
-    margin: 10% auto;
     background-color: #FFFFFF;
     max-width: 60%;
     max-height:50%;
