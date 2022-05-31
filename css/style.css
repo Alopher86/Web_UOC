@@ -483,7 +483,7 @@ section#pick_of_the_week {
 }
 
 /*Desktop*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px/*1024px*/) {
     #container_index_main{
         max-width: 900px;
         margin: 0 auto;
@@ -701,7 +701,7 @@ aside {
     background-color: #FFFFFF;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px/*1024px*/) {
     #container_MAIN_recipes_shop {
         max-width: 900px;
     }
@@ -837,4 +837,3 @@ iframe {
     grid-template-rows: 1.3fr 1fr;
         }
     }
-
