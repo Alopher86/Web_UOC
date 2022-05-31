@@ -813,6 +813,13 @@ iframe {
 }
 
 /*media querie videos.html*/
+
+@media screen and (min-width: 500px /*1024px*/) {
+    #videos_columns li {
+        grid-template-rows: 2fr 1fr;
+            }
+    }
+
 @media screen and (min-width: 768px /*1024px*/) {
     #videos_columns {
         display: grid;
@@ -830,3 +837,4 @@ iframe {
     grid-template-rows: 1.3fr 1fr;
         }
     }
+
