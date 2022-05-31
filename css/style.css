@@ -405,6 +405,7 @@ section#shop_section {
     /*margin: 2rem 1.3rem 0 1.3rem;*/
     padding: 3.1em 3.75em/*50px 60px*/;
     line-height: 1.6rem;
+    align-items: center;
 }
 
 #shop_section h2 {
