@@ -474,7 +474,13 @@ section#pick_of_the_week {
 
 /* Media queries index.html */
 
-
+/*tablet*/
+@media screen and (min-width: 768px) {
+    #newsletter label {
+        margin: 0 auto;
+       
+    }
+}
 
 /*Desktop*/
 @media screen and (min-width: 1024px) {
