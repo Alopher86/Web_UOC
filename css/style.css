@@ -673,9 +673,8 @@ section#pick_of_the_week {
 
 #pictures_section h2 + p {
     text-align: center;
-    line-height: 1.5rem;
-    padding-bottom: 20px;
-    margin-left: 0;
+    line-height: 1.5;
+    padding-bottom: 1em /*20px*/;
 }
 
 div#pages {
@@ -685,7 +684,7 @@ div#pages {
 
 #pages li {
     display: inline;
-    padding-right: 8px;
+    padding-right: 0.5em/*8px*/;
 }
 
 #pages a {
@@ -708,7 +707,7 @@ aside {
     }
 
     #RECIPES_SHOP {
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: 0.25fr 0.75fr;
         grid-template-rows: 0.98fr 0.02fr;
         grid-template-areas: 
@@ -731,7 +730,7 @@ aside {
     }
 
     .two_and_three_columns {
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: 1fr 1fr 1fr;
         }
 
@@ -747,14 +746,17 @@ aside {
     aside li {
         padding: 0.2em 0;
     }
+
     aside ul {
         margin: 0.5em 0 1.3em;
     }
+
     #recipes_shop_search input {
         padding: 0.8em 0 0.8em 3.5em;
         width: 100%;
         margin: 0.5em 0;
     }
+    
     #recipes_shop_search span {
         margin-bottom: 1em;
         }
@@ -823,9 +825,8 @@ iframe {
         grid-template-rows: 1fr 1fr;
         }
     }
-    @media screen and (min-width: 1024px) {
-        #videos_columns li {
-            grid-template-rows: 1.3fr 1fr;
-            }
+@media screen and (min-width: 1024px) {
+    #videos_columns li {
+    grid-template-rows: 1.3fr 1fr;
+        }
     }
-
