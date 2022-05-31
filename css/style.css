@@ -395,7 +395,6 @@ section#shop_section {
     background-image: url("../img/shop-bg.jpg");
     background-size: cover;
     text-align: center;
-    flex-direction: row;
 }
 
 #shop_section div {
@@ -404,7 +403,7 @@ section#shop_section {
     max-height: 50%;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     /*margin: 2rem 1.3rem 0 1.3rem;*/
-    padding: 3.1em 3.75em 3em/*50px 60px*/;
+    padding: 3.1em 3.75em/*50px 60px*/;
     line-height: 1.6rem;
 }
 
