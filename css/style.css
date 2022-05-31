@@ -484,7 +484,7 @@ section#pick_of_the_week {
     #container_index {
         /*display: grid;*/
         /*grid-template-columns: 1fr;*/
-        grid-template-rows: 0.1fr 1.5fr auto 1fr 0.55fr;
+        grid-template-rows: 0.1fr 2fr auto 1fr 0.55fr;
     }
 
     .two_columns{
