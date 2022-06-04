@@ -66,7 +66,7 @@ nav a:hover {
 #newsletter {
     background-color: #79BAAB;
     grid-area: newsletter;
-    display: block;
+  
     position: relative;
     z-index: 0;
 }
@@ -483,8 +483,6 @@ section#pick_of_the_week {
 
     header {
         background-color: #FFFFFF;
-        /*position: fixed;*/
-        /*margin: 0;*/
     }
 
     nav {
@@ -635,7 +633,6 @@ section#pick_of_the_week {
 /*recipes.html / shop.html */
 
 .current {
-    /*color: #2A2A2A;*/
     border-bottom: 1px dashed #2A2A2A;
     font-weight: 900;
 }
@@ -792,7 +789,7 @@ aside {
 
 .text_iframe {
     grid-area: text_iframe;
-    height: fit-content;
+    height: 100%;
 }
 
 iframe {
@@ -802,7 +799,7 @@ iframe {
 }
 
 #videos_columns p {
-    line-height: 1.6em;
+    line-height: 1.6;
     padding-bottom: 1em;
 }
 
