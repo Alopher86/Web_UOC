@@ -413,7 +413,7 @@ section#shop_section {
 }
 
 #shop_section p:last-child {
-    margin-bottom: 2em;
+    margin-bottom: 1em/*2em*/;
 }
 
 section#pick_of_the_week {
@@ -439,7 +439,7 @@ section#pick_of_the_week {
 }
 
 #pick_of_the_week p {
-    line-height: 1.5rem;
+    line-height: 1.5/*rem*/;
     margin-top: 0.7em;
 }
 
