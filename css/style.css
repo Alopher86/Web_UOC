@@ -392,7 +392,7 @@ section#shop_section {
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     margin: 3em 1.5em;
     padding: 2em 3em;
-    line-height: 1.6/*rem*/;
+    line-height: 1.6;
 }
 
 #shop_section h2 {
@@ -413,7 +413,7 @@ section#shop_section {
 }
 
 #shop_section p:last-child {
-    margin-bottom: 1em/*2em*/;
+    margin-bottom: 1em;
 }
 
 section#pick_of_the_week {
@@ -439,7 +439,7 @@ section#pick_of_the_week {
 }
 
 #pick_of_the_week p {
-    line-height: 1.5/*rem*/;
+    line-height: 1.5;
     margin-top: 0.7em;
 }
 
@@ -602,7 +602,6 @@ section#pick_of_the_week {
 }
 
 /*recipes.html / shop.html */
-
 .current {
     border-bottom: 1px dashed #2A2A2A;
     font-weight: 900;
@@ -733,7 +732,6 @@ aside {
 }
 
 /*videos.html*/
-
 #VIDEOS {
     display: grid;
     grid-template-columns: 1fr;
