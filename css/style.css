@@ -103,7 +103,7 @@ nav a:hover {
 
 #newsletter label {
     font-size: 1rem;
-    line-height: 1.5em;
+    line-height: 1.5;
     display: block;
 }
 
@@ -122,7 +122,7 @@ nav a:hover {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
-    width: 6.6em;/*110px;*/
+    width: 6.6em;
     height: 2.8em;
     cursor: pointer;
 }
@@ -271,7 +271,6 @@ main section {
     margin: 2em auto;
 }
 
-
 #intro_section input,
 #pick_of_the_week h2,
 #newsletter input,
@@ -316,7 +315,7 @@ h2 {
 .deco_line {
     display: flex;
     flex-direction: row;
-    padding-bottom: 1em /*40px*/;
+    padding-bottom: 1em;
 }
 
 h2.deco_line:before, 
@@ -390,12 +389,10 @@ section#shop_section {
 
 #shop_section div {
     background-color: #FFFFFF;
-    /*max-width: 60%;
-    max-height: 50%;*/
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     margin: 3em 1.5em;
-    padding: 2em 3em/*50px 60px*/;
-    line-height: 1.6rem;
+    padding: 2em 3em;
+    line-height: 1.6/*rem*/;
 }
 
 #shop_section h2 {
@@ -443,17 +440,16 @@ section#pick_of_the_week {
 
 #pick_of_the_week p {
     line-height: 1.5rem;
-    margin-top: 0.7em/*10px*/;
+    margin-top: 0.7em;
 }
 
 #pick_of_the_week p + p {
-    margin: 1.7em/*30px*/ 0;
+    margin: 1.7em 0;
 }
 
 #pick_of_the_week a {
     padding: 0.8em 1.6em;
     color: #79BAAB;
-    /*margin-bottom: 2em;*/
 }
 
 #pick_of_the_week a:hover {
@@ -462,12 +458,11 @@ section#pick_of_the_week {
 }
 
 /* Media queries index.html */
-
 /*tablet*/
 @media screen and (min-width: 768px) {
     #newsletter label {
         margin: 0 auto;
-        width: 35em/*560px*/;
+        width: 35em;
     }
     #newsletter input {
         width: 15em;
@@ -496,9 +491,7 @@ section#pick_of_the_week {
 
     nav img {
         grid-area: nav_img;
-        width: 208px;/*13em;*/
-        /*padding-top: 0.5em;
-        padding-bottom: 0.5em;*/
+        width: 208px;
         padding: 0.5em 0;
         margin: 0;
         }
@@ -510,30 +503,21 @@ section#pick_of_the_week {
     }
 
     #container_index {
-        /*display: grid;*/
-        /*grid-template-columns: 1fr;*/
         grid-template-rows: 0.1fr 1.5fr auto 1fr 0.55fr;
     }
-
-    /*#container_index_main {
-        /*display: grid;*/
-        /*grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-    }*/
    
     #intro_section input {
-        width: 360px;/*20em;*/
+        width: 360px;
     }
 
     #intro_section h1 {
         margin: 0 auto;
-        width: 460px;/*10em;*/
+        width: 460px;
     }
 
     .two_columns {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 1em;
-        /*margin: 0 auto;*/
     }
 
     #shop_section div {
@@ -541,17 +525,12 @@ section#pick_of_the_week {
         max-width: 50%;
     }
 
-    /*#shop_section p:last-child {
-    margin-bottom: 2em;
-    }*/
-
     #pick_of_the_week > div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1.2em;
         align-items: center;
         justify-content: center;
-        /*margin: 0 auto;*/
     }
 
     #newsletter label {
@@ -583,14 +562,11 @@ section#pick_of_the_week {
 
     #black_footer > p {
         text-align: left;
-        /*align-items: center;*/
         padding-top: 1em;
     }
 
     #black_footer ul {
         text-align: right;
-        /*align-items: center;
-        justify-content: center;*/
     }
 
     div#social_media {
@@ -606,14 +582,9 @@ section#pick_of_the_week {
         padding-top: 1em;
     }
 
-    /*#social_media li {
-        display: inline-flex;
-    }*/
-
     footer hr {
         margin: auto;
         grid-area: hr;
-        /*height: 0;*/
         width: 900px;
     }
 
@@ -640,7 +611,7 @@ section#pick_of_the_week {
 #container_BODY_recipes_shop {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr auto 1fr 0.80fr/*0.75fr*/;
+    grid-template-rows: 0.2fr auto 1fr 0.80fr;
     grid-template-areas:
     "header"
     "main_recipes_shop"
@@ -675,7 +646,7 @@ section#pick_of_the_week {
 #pictures_section h2 + p {
     text-align: center;
     line-height: 1.5;
-    padding-bottom: 1em /*20px*/;
+    padding-bottom: 1em;
 }
 
 div#pages {
@@ -685,7 +656,7 @@ div#pages {
 
 #pages li {
     display: inline;
-    padding-right: 0.5em/*8px*/;
+    padding-right: 0.5em;
 }
 
 #pages a {
@@ -708,7 +679,6 @@ aside {
     }
 
     #RECIPES_SHOP {
-        /*display: grid;*/
         grid-template-columns: 0.25fr 0.75fr;
         grid-template-rows: 0.98fr 0.02fr;
         grid-template-areas: 
@@ -731,7 +701,6 @@ aside {
     }
 
     .two_and_three_columns {
-        /*display: grid;*/
         grid-template-columns: 1fr 1fr 1fr;
         }
 
@@ -815,17 +784,16 @@ iframe {
 
 /*media querie videos.html*/
 
-@media screen and (min-width: 500px /*1024px*/) {
+@media screen and (min-width: 500px) {
     #videos_columns li {
         grid-template-rows: 2fr 1fr;
             }
     }
 
-@media screen and (min-width: 768px /*1024px*/) {
+@media screen and (min-width: 768px) {
     #videos_columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 1.2em; 
         }
 
