@@ -525,6 +525,10 @@ section#pick_of_the_week {
         max-width: 50%;
     }
 
+    #shop_section div p:last-child {
+        padding-bottom: 4em;
+    }
+
     #pick_of_the_week > div {
         display: grid;
         grid-template-columns: 1fr 1fr;
