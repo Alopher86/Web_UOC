@@ -573,7 +573,6 @@ section#pick_of_the_week {
     div#social_media {
         grid-area: social_media;
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: flex-end;
         margin-top: 1em;
