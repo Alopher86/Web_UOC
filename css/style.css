@@ -523,9 +523,6 @@ section#pick_of_the_week {
     #shop_section div {
         max-height: 45%;
         max-width: 50%;
-    }
-
-    #shop_section div p:last-child {
         padding-bottom: 4em;
     }
 
